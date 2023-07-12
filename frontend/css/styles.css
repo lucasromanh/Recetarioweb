@@ -1,0 +1,140 @@
+/* styles.css */
+
+.carousel-item img {
+    height: 300px;
+    object-fit: cover;
+}
+
+.slider {
+    margin-bottom: 40px;
+}
+
+.doctors {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.doctors h2 {
+    margin-bottom: 20px;
+}
+
+.doctors .card {
+    margin-bottom: 20px;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #40e0d0; /* Turquesa */
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    background-color: #40e0d0; /* Turquesa */
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background-color: #d1edee; /* Plateado */
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    font-size: 12px;
+}
+
+/* -------------------------REGISTRO--------------------------------------- */
+
+.register-form {
+    border: 1px solid #ccc;
+    padding: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.register-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.register-form label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.register-form .form-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.register-form .form-row label {
+    width: 120px;
+}
+
+.register-form .form-row input[type="text"],
+.register-form .form-row input[type="email"],
+.register-form .form-row input[type="password"],
+.register-form .form-row select {
+    width: calc(100% - 130px);
+}
+
+.register-form input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #d1edee; /* Turquesa */
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.register-form input[type="submit"]:hover {
+    background-color: #d1edee; /* Turquesa más claro */
+}
+
+
+
+html, body {
+    height: 100%;
+}
+
+.wrapper {
+    min-height: 100%;
+    margin-bottom: -100px;
+}
+
+.push {
+    height: 100px;
+}

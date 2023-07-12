@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Recetas de la Nona 2.0 Flask</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Dr PRO template project">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="img/favicon.png">
+    <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet"/>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/animate.css">
+    <link rel="stylesheet" type="text/css" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" type="text/css" href="css/themify-icons.css">
+    <link rel="stylesheet" type="text/css" href="css/flaticon.css">
+    <link rel="stylesheet" type="text/css" href="css/magnific-popup.css">
+    <link rel="stylesheet" type="text/css" href="css/slick.css">
+    <link rel="stylesheet" type="text/css" href="css/gijgo.min.css">
+    <link rel="stylesheet" type="text/css" href="css/nice-select.css">
+    <link rel="stylesheet" type="text/css" href="css/all.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
+</head>
+<body>
+    <header class="main_menu home_menu" id="header">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-12">
+
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <style>
+        .contenedor {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .formulario {
+            background: #fff;
+            padding: 3px;
+            max-width: 500px;
+            width: 100%;
+            text-align: center;
+        }
+    </style>
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <header class="container" id="header"></header>
+    <main>
+    <div id="app">
+      <div class="contenedor">
+        <div class="formulario">
+          <h1 class="mb-5">Modificar Receta</h1>
+
+          <form method="PUT">
+            <div class="input-contenedor mb-3">
+              <label for="nombre" class="form-label">Nombre:</label>
+              <input type="text" id="nombre" name="nombre" class="form-control" required>
+            </div>
+
+            <div class="input-contenedor mb-3">
+              <label for="ingredientes" class="form-label">Ingredientes:</label>
+              <textarea id="ingredientes" name="ingredientes" class="form-control" required></textarea>
+            </div>
+
+            <div class="input-contenedor mb-3">
+              <label for="preparacion" class="form-label">Preparación:</label>
+              <textarea id="preparacion" name="preparacion" class="form-control" required></textarea>
+            </div>
+
+            <div class="input-contenedor mb-3">
+                <label for="imagen" class="form-label">Imagen URL:</label>
+                <input type="text" id="imagen" name="imagen" class="form-control" >
+            </div>
+
+            <div class="input-contenedor mb-3">
+              <label for="tiempo_preparacion" class="form-label">Tiempo de Preparación (minutos):</label>
+              <input type="number" id="tiempo_preparacion" name="tiempo_preparacion" class="form-control">
+            </div>
+
+            <div class="input-contenedor mb-3">
+              <label for="tiempo_coccion" class="form-label">Tiempo de Cocción (minutos):</label>
+              <input type="number" id="tiempo_coccion" name="tiempo_coccion" class="form-control">
+            </div>
+
+            <div class="input-contenedor mb-3">
+              <label for="etiquetas" class="form-label">Etiquetas:</label>
+              <input type="text" id="etiquetas" name="etiquetas" class="form-control">
+            </div>
+
+            <div class="d-grid gap-2">
+              <button type="button" class="btn btn-primary" onclick="modificarReceta()">Modificar</button>
+              <a href="./index.html" class="btn btn-secondary">Cancelar</a>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    </main>
+
+    <script src="js/vendor/jquery-1.12.4.min.js"></script>
+    <script src="js/vendor/bootstrap.min.js"></script>
+    <script src="js/jquery.ajaxchimp.min.js"></script>
+    <script src="js/parallax.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/gijgo.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+    <script src="js/editar.js"></script>
+    <script src="js/recetas.js"></script>
+    <script src="js/agregar.js"></script>
+</body>
+</html>

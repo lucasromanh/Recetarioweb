@@ -1,0 +1,39 @@
+.container {
+    margin: 20px;
+  }
+  
+  .container h2 {
+    color: #0069d9;
+    font-size: 24px;
+  }
+  
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .table th,
+  .table td {
+    border: 1px solid black;
+    padding: 8px;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 8px 16px;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #fff;
+    background-color: #007bff;
+    border-radius: 4px;
+    border: 2px solid #007bff;
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .btn:hover {
+    background-color: #0069d9;
+    border-color: #0062cc;
+  }
+  
